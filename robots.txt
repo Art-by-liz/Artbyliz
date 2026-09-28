@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://artbyliz.ca/sitemap.xml
