@@ -536,6 +536,18 @@ body{overflow-wrap:break-word}
 }
 </style>
 
+
+<style id="seasonal-halloween-2026">
+:root{--fall-orange:#b85c2e;--fall-gold:#c98a35;--fall-plum:#56344f;--fall-brown:#6f4937;}
+body{background:radial-gradient(circle at 8% 8%,rgba(201,138,53,.10),transparent 24%),radial-gradient(circle at 92% 22%,rgba(184,92,46,.09),transparent 25%),#f7f1e8!important;}
+body::before,body::after{position:fixed;z-index:30;pointer-events:none;opacity:.82;filter:drop-shadow(0 3px 5px rgba(55,34,24,.12));font-size:clamp(26px,3vw,46px);line-height:1}
+body::before{content:"🍂";left:14px;bottom:16px;transform:rotate(-15deg)}
+body::after{content:"🎃";right:15px;bottom:14px}
+.tile,.category-card,.social-card,.latest-shell,.collection-page,.panel,.card{border-color:rgba(111,73,55,.22)!important}
+.tile::after,.category-card::after{box-shadow:inset 0 0 0 1px rgba(201,138,53,.08)}
+.footer{border-top-color:rgba(111,73,55,.24)!important}
+@media(max-width:600px){body::before,body::after{font-size:26px;opacity:.68}}
+</style>
 </head>
 <body>
 <main class="shell">
@@ -562,9 +574,10 @@ body{overflow-wrap:break-word}
 </button>
 </div>
 <h1 class="collection-heading">Nature &amp; Botanicals</h1>
-</div><p class="collection-count" id="collection-count">3 artworks</p>
+</div><p class="collection-count" id="collection-count">4 artworks</p>
 <section aria-label="Nature and Botanicals gallery" class="collection-page">
 <div class="clean-art-grid" aria-label="Artwork grid">
+<div class="clean-art-slot" aria-label="Floral Teacup artwork"><img class="protected-art" src="floral-teacup.jpg" alt="Floral Teacup artwork" width="1206" height="1493" loading="eager" decoding="async" draggable="false"></div>
 <div class="clean-art-slot" aria-label="Pink Flowers artwork"><img class="protected-art" src="pink-flowers.jpg" alt="Pink Flowers artwork" width="1206" height="1486" loading="eager" decoding="async" draggable="false"></div>
 <div class="clean-art-slot" aria-label="Yellow Flower artwork"><img class="protected-art" src="yellow-flower.jpg" alt="Yellow Flower artwork" width="1206" height="1486" loading="eager" decoding="async" draggable="false"></div>
 <div class="clean-art-slot" aria-label="Welcome to My Garden artwork"><img class="protected-art" src="welcome-garden.jpg" alt="Welcome to My Garden artwork" width="1206" height="1496" loading="eager" decoding="async" draggable="false"></div>
